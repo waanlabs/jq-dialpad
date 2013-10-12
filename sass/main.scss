@@ -94,23 +94,25 @@ textarea{ resize: vertical; }
 }
 
 $black: #000;
-$gray_80: #4D4D4D;
-$gray_20: #EAEAE7;
-$white: #FFF;
+$white: #fff;
+
+//grey tone
+$grey_80: #4d4d4d;
+$grey_20: #c1c1c1;
 
 // Blue tones
-$blue_bright: #00CAF2;
-$blue_light: #B2F2FF;
+$blue_bright: #00caf2;
+$blue_light: #b2f2ff;
 
 // Dark Blue Tones
-$dblue_light: #2D3743;
+$dblue_light: #2d3743;
 
 // Violet tones
-$violet_dark: #1D1918;
+$violet_dark: #1d1918;
 
 //green Tone
 $green_normal: #009933;
-$green_light: #00CC33;
+$green_light: #00cc33;
 
 body{
 
@@ -124,10 +126,10 @@ body{
     position: relative;
     z-index: 2;
     padding: 15px 20px;
-    color: $white;
+    color: $grey_80;
     font-weight: 300;
     font-size: 40px;
-    background: $dblue_light;
+    background: $white;
     height: 78px;
   }
 
@@ -147,10 +149,10 @@ body{
 
         font-weight: 600;
         padding: 15px 25px;
-        border-top: 1px solid $gray_80;
+        border-top: 1px solid $grey_80;
         border-right: 1px solid $black;
         border-bottom: 1px solid $black;
-        border-left: 1px solid $gray_80;
+        border-left: 1px solid $grey_80;
 
         strong{
 
@@ -165,11 +167,8 @@ body{
         background: $blue_bright;
         border-top-color: $blue_light;
       }
-
     }
-
   }
-
 }
 
 .compact{
@@ -183,7 +182,11 @@ body{
         padding: 25px 15px;
 
         strong{ font-size:30px; }
-        sup{ text-transform: uppercase; }
+        sup{
+
+          text-transform: uppercase;
+          color: $grey_20;
+        }
       }
     }
 

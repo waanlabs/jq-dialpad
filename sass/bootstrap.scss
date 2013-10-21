@@ -21,15 +21,11 @@ hgroup,
 main,
 nav,
 section,
-summary {
-  display: block;
-}
+summary { display: block; }
 
 audio,
 canvas,
-video {
-  display: inline-block;
-}
+video { display: inline-block; }
 
 audio:not([controls]) {
   display: none;

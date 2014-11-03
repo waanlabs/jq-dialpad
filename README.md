@@ -19,7 +19,7 @@ This plug-in is also co-developed with Bootstrap for ensuring that every element
 
 ####Usage
 
-This plug-in contains all relevant source files. Once you download it, please extract it to a location of your choice, and check whether the following files and folders are available:
+This plug-in contains all relevant source files(bundle with html5-boilerplate). Once you download it, please extract it to a location of your choice, and check whether the following files and folders are available:
 
 ````git
 - .sass-cache

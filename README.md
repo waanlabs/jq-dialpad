@@ -5,16 +5,13 @@ jq-dialpad
 
 ####Welcome to jq-dialpad
 
-A state-of-the-art online tool for creating user-friendly web apps and websites for web developers of all skill levels, html5-boilerplate is now popularly recognized for its highly efficient yet easy to use open source template.
+The Jquery dialpad (or simply known as the jq-dialpad) is a light plug-in that is developed using HTML5 and CSS3, with its base being the jQuery library. Its main objective is to provide a dialpad for a wide variety of web projects – from simple widgets to fully fledged applications.
 
-Fully integrated with HTML5boilerplate, Compass, Bootstrap, jQuery, PIE.htc and Font Awesome, producing web apps and websites that are either in a fixed or fluid layout with superior performance and speedy loading is a specialty of html5-boilerplate.
-
-Readily available as pre-devised open source coding, html5-boilerplate is only a few clicks away. You can download the bundles from the links on the top of this page. Alternatively, you could also fork the git repo or clone it.
-
+This plug-in is also co-developed with Bootstrap for ensuring that every element in the Dom is able to conveniently adopt itself for optimum device compatibility. With its ease of use and multi-functionality, jq-dialpad strives to deliver a smooth and comfortable experience for the user.
 
 ````git
     $ git init
-    $ git  remote add upstream git@github.com:waanit/html5-boilerplate
+    $ git  remote add upstream git@github.com:waanit/jq-dialpad.git
     $ git fetch upstream
     $ git checkout upstream/master
 ````

@@ -1,11 +1,13 @@
-/**
- *  Calculator functions
- */
-$(function(){
+/* ==========================================================================
+   main.js
+   ========================================================================== */
+var $j = jQuery.noConflict();
 
-    var dials = $(".dials ol li");
+$j(function(){
+
+    var dials = $j(".dials ol li");
     var index;
-    var number = $(".number");
+    var number = $j(".number");
     var total;
 
     dials.click(function(){
@@ -41,7 +43,7 @@ $(function(){
         }else{ number.append(index+1); }
     });
 
-    $(document).keydown(function(e){
+    $j(document).keydown(function(e){
 
         switch(e.which){
 

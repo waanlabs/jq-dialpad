@@ -1,8 +1,9 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
+/* ==========================================================================
+   main.css
+   ========================================================================== */
+/* ==========================================================================
+   Import mixin
+   ========================================================================== */
 @import "compass/reset";
 @import "compass/css3";
 /* ==========================================================================
@@ -16,7 +17,7 @@ textarea{ color: #222; }
 
 html{
 
-  font-size: 1em;
+  font: 100% "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
   line-height: 1.4;
 }
 /*
@@ -73,17 +74,19 @@ textarea{ resize: vertical; }
    ========================================================================== */
 .browsehappy{
 
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+  margin: 0px 0px 10px 0px;
+  padding: 0.5em 0em;
+  background: #aac739;
+  color: #4f4f4f;
+  text-align: center;
 }
 /* ==========================================================================
-   custom styles
+   Custom mixins
    ========================================================================== */
 @mixin clear(){
 
   &:before, &:after{
+
     content: "\0020";
     display: block;
     height: 0;
@@ -92,34 +95,34 @@ textarea{ resize: vertical; }
 
   &:after{ clear: both; }
 }
-
+/* ==========================================================================
+   Tones
+   ========================================================================== */
 $black: #000;
 $white: #fff;
-
 //grey tone
 $grey_80: #4d4d4d;
 $grey_20: #c1c1c1;
-
 // Blue tones
 $blue_bright: #00caf2;
 $blue_light: #b2f2ff;
-
 // Dark Blue Tones
 $dblue_light: #2d3743;
-
 // Violet tones
 $violet_dark: #1d1918;
-
 //green Tone
 $green_normal: #009933;
 $green_light: #00cc33;
-
+/* ==========================================================================
+   User styles
+   ========================================================================== */
 body{
 
-  font: 100% 'Open Sans', Arial, Helvetica, sans-serif;
-  background: $white;}
+  background: $white;
+  color: $black;
+}
 
-.dialPad{
+.dialpad{
 
   .number{
 
@@ -171,18 +174,20 @@ body{
   }
 }
 
-.compact{
+.compact {
 
-  .dials{
+  .dials {
 
-    .digits{
+    .digits {
 
-      p{
+      p {
 
         padding: 25px 15px;
 
-        strong{ font-size:30px; }
-        sup{
+        strong {
+          font-size: 30px;
+        }
+        sup {
 
           text-transform: uppercase;
           color: $grey_20;
@@ -190,15 +195,15 @@ body{
       }
     }
 
-    .pad-action{
+    .pad-action {
 
       background: $green_normal;
 
-      &:active{ background: $green_light; }
+      &:active {
+        background: $green_light;
+      }
     }
-
   }
-
 }
 /* ==========================================================================
    Helper classes

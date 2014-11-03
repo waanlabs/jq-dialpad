@@ -1,9 +1,9 @@
-html5-boilerplate
+jq-dialpad
 ==================
-###HTML 5 template for UI/UX developers
+###jq-dialpad for developers
 
 
-####Welcome to html5-boilerplate
+####Welcome to jq-dialpad
 
 A state-of-the-art online tool for creating user-friendly web apps and websites for web developers of all skill levels, html5-boilerplate is now popularly recognized for its highly efficient yet easy to use open source template.
 

@@ -18,8 +18,7 @@ This plug-in is also co-developed with Bootstrap for ensuring that every element
 
 ####Usage
 
-Upon download, your program package should contain all source codes, as shown below. This package can be extracted to any location that you prefer on your system.
-Whenever you wish to use these coding, simply include files and all other related dependencies within them.
+This plug-in contains all relevant source files. Once you download it, please extract it to a location of your choice, and check whether the following files and folders are available:
 
 ````git
 - .sass-cache
@@ -101,6 +100,8 @@ Whenever you wish to use these coding, simply include files and all other relate
 - robots.txt
 - TODO.md
 ````
+
+Whenever you wish to use these codings, simply include the html and all other related dependencies (such as JS and CSS).
 
 ####About waan.it
 

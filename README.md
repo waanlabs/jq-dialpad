@@ -16,6 +16,7 @@ This plug-in is also co-developed with Bootstrap for ensuring that every element
     $ git checkout upstream/master
 ````
 
+
 ####Usage
 
 This plug-in contains all relevant source files. Once you download it, please extract it to a location of your choice, and check whether the following files and folders are available:
@@ -102,6 +103,7 @@ This plug-in contains all relevant source files. Once you download it, please ex
 ````
 
 Whenever you wish to use these codings, simply include the html and all other related dependencies (such as JS and CSS).
+
 
 ####About waan.it
 

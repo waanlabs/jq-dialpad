@@ -11,7 +11,7 @@ This plug-in is also co-developed with Bootstrap for ensuring that every element
 
 ````git
     $ git init
-    $ git  remote add upstream git@github.com:waanit/jq-dialpad.git
+    $ git remote add upstream git@github.com:waanit/jq-dialpad.git
     $ git fetch upstream
     $ git checkout upstream/master
 ````
